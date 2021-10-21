@@ -1,5 +1,5 @@
 #Basic simulation frame
-my_sim = function(C, percent_vax, strategy, num_perday, v_e_type, v_e = v_e_constant,
+framework = function(C, percent_vax, strategy, num_perday, v_e_type, v_e = v_e_constant,
                   u = u_var, sero = sero_none, sp = 1, se = 0,  syn_sero_compartments = NA){
   E_0 <- Sv_0 <- R_0 <- D_0 <- rep(0, num_groups)
   if (num_perday == 1){ 
