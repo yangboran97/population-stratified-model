@@ -2,7 +2,7 @@
 
 Code layout:
 
-framework.R - model function to run the simulation my_sim (for all-or-nothing efficacy)
+framework.R - model function to run the simulation framework (for all-or-nothing efficacy)
 
 functions.R - basic simulation functions for main.R, plotting functions at the top, population-stratefied model related functions at the bottom  
 
